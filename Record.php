@@ -31,3 +31,4 @@ public static function getInstance($counterId) {
 		return $self;
 	}
 }
+i love to remove file

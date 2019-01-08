@@ -113,3 +113,4 @@ class Settings_Counters_Module_Model extends Vtiger_Module_Model {
 		return $moduleModel;
 	}
 }
+this wne alson reverted tidlnue
