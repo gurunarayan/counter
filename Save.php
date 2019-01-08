@@ -10,6 +10,8 @@
 
 class Settings_Counters_Save_Action extends Settings_Vtiger_Index_Action {
 
+	test ilne addded in code
+
 	public function process(Vtiger_Request $request) {
 		$db = PearDatabase::getInstance();
 		$moduleName = $request->getModule(false);

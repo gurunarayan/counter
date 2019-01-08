@@ -33,7 +33,8 @@ class Settings_Counters_List_View extends Settings_Vtiger_Index_View {
 
             $selectedFieldAllPickListValues = Vtiger_Util_Helper::getPickListValues($selectedPickListFieldModel->getName());
             
-			
+	     this is the extraline added for testing 
+	$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$						
             $viewer->assign('PICKLIST_FIELDS',$pickListFields);
             $viewer->assign('SELECTED_PICKLIST_FIELDMODEL',$selectedPickListFieldModel);
             $viewer->assign('SELECTED_PICKLISTFIELD_ALL_VALUES',$selectedFieldAllPickListValues);
