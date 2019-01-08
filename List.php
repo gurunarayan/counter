@@ -73,3 +73,4 @@ class Settings_Counters_List_View extends Settings_Vtiger_Index_View {
 }
 
 
+## this is the latest changes in that fle 
