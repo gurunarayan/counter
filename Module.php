@@ -17,7 +17,7 @@ class Settings_Counters_Module_Model extends Vtiger_Module_Model {
     public function getFieldsByType($type) {
 		$presence = array('0','2');
 
-hkjshgkkghdkghdkjgdkfjg        $fieldModels = parent::getFieldsByType($type);
+        $fieldModels = parent::getFieldsByType($type);
         $fields = array();
         foreach($fieldModels as $fieldName=>$fieldModel) {
             if(($fieldModel->get('displaytype') != '1' && $fieldName != 'salutationtype') || !in_array($fieldModel->get('presence'),$presence)) {
