@@ -10,7 +10,7 @@
 
 class Settings_Counters_Module_Model extends Vtiger_Module_Model {
 
-    public function getPickListTableName($fieldName) {
+    public function  guru getPickListTableName($fieldName) {
         return 'vtiger_'.$fieldName;
     }
 
