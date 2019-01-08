@@ -71,4 +71,3 @@ class Settings_Counters_List_View extends Settings_Vtiger_Index_View {
 	}
 	
 }
-my fle are newley created if required pls remove
