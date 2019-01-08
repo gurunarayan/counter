@@ -68,4 +68,3 @@ jQuery(document).ready(function(){
 	var settingCountersInstance = new Settings_Counters_Js();
 	settingCountersInstance.registerEvents();
 })
-hskhskhgskgjlsfjglgjlskgjslkgj
