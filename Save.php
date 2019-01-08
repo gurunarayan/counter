@@ -23,7 +23,6 @@ class Settings_Counters_Save_Action extends Settings_Vtiger_Index_Action {
 		$db->query($query);
 		$loadUrl = $countersModuleModel->getIndexViewUrl();
 		header("Location: $loadUrl");
-		ramlanxman
 	}
 
         public function validateRequest(Vtiger_Request $request) { 
